@@ -12,8 +12,8 @@ public class ActivitySelectionUnsorted {
         int [][]activities=new int[start.length][3];
         for(int i=0;i< start.length;i++){
             activities[i][0]=i;       //storing original array index
-            activities[i][1]=start[i];//storing start index in first column
-            activities[i][2]=end[i];  // storing end index in 2nd column
+            activities[i][1]=start[i];//storing start time in first column
+            activities[i][2]=end[i];  // storing end time in 2nd column
         }
 
         //lambda function-> shortform
