@@ -8,10 +8,10 @@ public class ChocolaProblem {
         int n = 4, m = 6;
 
         // Cost of vertical cuts (there are m-1 vertical cuts)
-        Integer costVer[] = {2, 1, 3, 1, 4}; // 5 elements for 6 columns
+        Integer []costVer = {2, 1, 3, 1, 4}; // 5 elements for 6 columns
 
         // Cost of horizontal cuts (there are n-1 horizontal cuts)
-        Integer costHor[] = {4, 1, 2}; // 3 elements for 4 rows
+        Integer []costHor = {4, 1, 2}; // 3 elements for 4 rows
 
         // Sort both cost arrays in descending order
         // This ensures we pick the most expensive cuts first — Greedy strategy
