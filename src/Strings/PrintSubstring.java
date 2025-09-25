@@ -1,6 +1,6 @@
 package Strings;
 
-public class PrintSubstring {
+public class  PrintSubstring {
     public static void main(String[] args) {
         String s="abc";
         for(int i=0;i<=s.length();i++){
