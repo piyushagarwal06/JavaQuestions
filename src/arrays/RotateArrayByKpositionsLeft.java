@@ -10,13 +10,22 @@ public class RotateArrayByKpositionsLeft {
         int k=sc.nextInt();
         k%=arr.length;
 
-        for(int i=0;i<k;i++){
+        while(k>0){
             int first=arr[0];
-            for(int j=0;j<arr.length-1;j++){
-                arr[j]=arr[j+1];
+            for(int i=0;i< arr.length-1;i++){
+                arr[i]=arr[i+1];
             }
             arr[arr.length-1]=first;
+            k--;
         }
+
+//        for(int i=0;i<k;i++){
+//            int first=arr[0];
+//            for(int j=0;j<arr.length-1;j++){
+//                arr[j]=arr[j+1];
+//            }
+//            arr[arr.length-1]=first;
+//        }
 
         for(int n:arr){
             System.out.print(n+" ");
