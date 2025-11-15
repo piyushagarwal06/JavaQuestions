@@ -141,7 +141,7 @@ public class LLImplementation {
         hm.put("India",100);
         hm.put("Nepal" , 5);
         hm.put("US",50);
-        hm.put("China",5);
+        hm.put("China",8);
 
         ArrayList<String> keys=hm.keySet();
         for (String key: keys){
